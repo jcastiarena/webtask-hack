@@ -1,0 +1,15 @@
+{
+  "name": "webtask-meli",
+  "version": "1.0.0",
+  "description": "MELI API proxy via webtask",
+  "main": "search.js",
+  "scripts": {},
+  "author": "Javier Castiarena",
+  "license": "",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {}
+}

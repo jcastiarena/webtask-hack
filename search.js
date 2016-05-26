@@ -15,7 +15,7 @@ var View = `
     {{#if results.length}}
       <ul>
         {{#each results}}
-          <li><div>{{this.title}} <strong style='color:red'>ARS {{this.price}}</strong></div></li>
+          <li><div><img src={{this.thumbnail}} /><a href={{this.permalink}} target='_blank'> {{this.title}} </a><strong style='color:red'>ARS {{this.price}}</strong></div></li>
         {{/each}}
       </ul>
     {{else}}

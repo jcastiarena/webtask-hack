@@ -5,9 +5,11 @@ A small exercise to test webtasks
 
 ## Installation
   Install webtask commandline application:
-  `npm i -g wt-cli`
   
+  `npm i -g wt-cli`
+
   `wt init`
+
   `wt create search.js`
 
 ## Usage
